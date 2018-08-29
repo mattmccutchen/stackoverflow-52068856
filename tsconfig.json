@@ -1,0 +1,26 @@
+{
+    //"compileOnSave": true,
+    "compilerOptions": {
+     "target": "es5",
+     "lib": [
+         "dom",
+         "es5",
+         "scripthost",
+         "es6"
+     ],
+     "module": "commonjs",
+     "noImplicitAny": true,
+     //"strictNullChecks": true,
+     "noEmitOnError": false,
+     "removeComments": true,
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,
+     "sourceMap": true,
+ },
+ "exclude": [
+     "node_modules",
+     "obj",
+     "bin"
+ ]
+ }
+ 
